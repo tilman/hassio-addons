@@ -29,9 +29,20 @@ Homegear logs will be in `/share/homegear/log`.
 You must reset you MAX! Devices to add it to a new Homegear installation with CUL Adapter. 
 
 1. Put out the Batteries
-2. Wait until 60 Seconds
-3. Hold the 3 buttens () pressed while inserting the Batteries
-4. In display shows "rES"
+2. Wait 60 Seconds
+3. Hold the 3 bottuns () pressed while inserting the Batteries
+4. "rES" appears in the Display
+
+Wallthermostat
+
+1. Put out the Batteries
+2. Weit 60 Seconds
+3. Hold the 3 bottuns (Monn, BOOST OK, Minus) while inserting the Batteries
+4. "rES" appears in the Display
+
+Window
+
+
 
 ## Limitations
 
