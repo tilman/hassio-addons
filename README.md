@@ -46,7 +46,9 @@ Wallthermostat
 
 Window
 
+## Known Issues
 
+After the first start, you must set the premissions manual. Login to the container and type ``chown homegear:homegear /var/lib/homegear -R`` after restarting the container, you can access the Admin-UI with ``<your-ip>:2001/admin``. You can find the Password in the homegear.log.
 
 ## Limitations
 
