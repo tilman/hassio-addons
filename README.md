@@ -24,6 +24,10 @@ Homegear logs will be in `/share/homegear/log`.
 
 ### MAX! Device
 
+#### Link Devices
+
+https://ref.homegear.eu/rpc.html#addLink
+
 #### Reset MAX! Devices
 
 You must reset you MAX! Devices to add it to a new Homegear installation with CUL Adapter. 
