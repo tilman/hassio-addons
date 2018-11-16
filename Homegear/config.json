@@ -5,10 +5,11 @@
   "description": "Homegear as a Hassio add-on",
   "startup": "before",
   "boot": "auto",
+  "url": "https://community.home-assistant.io/t/homegear-add-on-for-hassio/35169/10",
   "hassio_api": false,
   "homeassistant_api": false,
   "auto_uart": true,
-  "webui": "http://[HOST]:[PORT:8234]",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:8234]",
   "gpio": true,
   "privileged": [
     "SYS_ADMIN",
@@ -21,8 +22,10 @@
   "environment": {
   },
   "options": {
+     "log_level": "info"  
   },
   "schema": {
+    "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)"
   },
   "ports": {
     "2001": 2001,
