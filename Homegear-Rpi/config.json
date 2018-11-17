@@ -1,6 +1,6 @@
 {
   "name": "Homegear-Rpi",
-  "version": "0.80.nb1",
+  "version": "0.79.1",
   "slug": "rpi-homegear",
   "description": "Homegear for RaspberryPi as a Hassi  add-on",
   "startup": "before",
