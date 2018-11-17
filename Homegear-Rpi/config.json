@@ -1,8 +1,8 @@
 {
   "name": "Homegear",
   "version": "0.80.nb1",
-  "slug": "homegear",
-  "description": "Homegear for Hassio add-on",
+  "slug": "rpi-homegear",
+  "description": "Homegear for RaspberryPi as a Hassi  add-on",
   "startup": "before",
   "boot": "auto",
   "url": "https://community.home-assistant.io/t/homegear-add-on-for-hassio/35169/10",

@@ -1,7 +1,8 @@
 # Taken from https://github.com/Homegear/Homegear-Docker/blob/master/rpi-stable/Dockerfile
-FROM debian:stretch
+FROM arm32v7/debian:stretch
 MAINTAINER Sathya Laufer <sathya@homegear.email>
 
+COPY qemu-arm-static /usr/bin/qemu-arm-static
 RUN \
     apt-get update && apt-get -y install \
     apt-transport-https \
