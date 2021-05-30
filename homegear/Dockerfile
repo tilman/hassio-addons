@@ -53,7 +53,7 @@ ENV architecture=${BUILD_ARCH}
 COPY script/installNightly.sh /installNightly.sh
 RUN \
     groupadd homegear
-    useradd -G homegear homegear
+    useradd -g homegear homegear
     touch /tmp/HOMEGEAR_STATIC_INSTALLATION; \
     wget https://homegear.eu/packages/Release.key && apt-key add Release.key && rm Release.key; \
     echo 'deb https://homegear.eu/packages/Debian/ stretch/' >> /etc/apt/sources.list.d/homegear.list; \
